@@ -16,14 +16,20 @@
     <div class="background-overlay"></div>
     
     <nav class="nav splash-regular">
-        <a href=""><img class="logo" src="./imgs/logo.jpeg" alt="Logo"></a>
-        
-        <ul>
-            <li class="nav__li"><a href="./index.html">Inicio</a></li>
-            <li class="nav__li"><a href="./tops.html">Tops</a></li>
-            <li class="nav__li"><a href="./bottoms.html">Bottoms</a></li>
-            <li class="nav__li"><a href="./accesorios.html">Accerorios</a></li>
-        </ul>
+        <div class="navbar-container">
+            <figure class="logo-container">
+                <img class="logo" src="./imgs/logo.jpeg" alt="Logo">
+            </figure>
+            <ul>
+                <figure class="cross-container">
+                    <img class="cross-icon" src="./imgs/cross.svg" alt="">
+                </figure>
+                <li class="nav__li"><a href="./index.html">Inicio</a></li>
+                <li class="nav__li"><a href="./tops.html">Tops</a></li>
+                <li class="nav__li"><a href="./bottoms.html">Bottoms</a></li>
+                <li class="nav__li"><a href="./accesorios.html">Accerorios</a></li>
+            </ul>    
+        </div>
     </nav>
     
     <main class="main">
@@ -74,12 +80,16 @@
     </main>
 
     <footer>
-        <div class="background-overlay"></div>
+        <figure class="footer-img-container">
+            <img class="footer-img" src="./imgs/footer.png" alt="">
+        </figure>
 
         <p class="footer__p">Encontranos en Av. Corrientes 2582 - CABA - Galería Vía del Sol</p>
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4408.531834576166!2d-58.40568062316603!3d-34.60542585759042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaed1d668a61%3A0xf78d8345df2d873d!2sGaleria%20Via%20del%20Sol%2C%20Av.%20Corrientes%202582%2C%20C1046AAQ%20C1046AAQ%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1730223337734!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>
+
+    <script src="./scripts.js"></script>
 </body>
 </html>
